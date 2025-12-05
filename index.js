@@ -15,11 +15,11 @@ app.get('/', (req, res) => {
         message: 'Recipe Management System - API Ingredients',
         version: '1.0.0',
         endpoints: {
-            'GET /dishdash/ingredients': 'Get all ingredients',
-            'GET /dishdash/ingredients/category/:category': 'Filter by category',
-            'POST /dishdash/ingredient': 'Create new ingredient',
-            'PUT /dishdash/ingredient/:productId': 'Update ingredient',
-            'DELETE /dishdash/ingredient/:productId': 'Delete ingredient'
+            'GET /recipemanagement/ingredients': 'Get all ingredients',
+            'GET /recipemanagement/ingredients/category/:category': 'Filter by category',
+            'POST /recipemanagement/ingredient': 'Create new ingredient',
+            'PUT /recipemanagement/ingredient/:productId': 'Update ingredient',
+            'DELETE /recipemanagement/ingredient/:productId': 'Delete ingredient'
         }
     });
 });
